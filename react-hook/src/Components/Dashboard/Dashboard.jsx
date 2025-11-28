@@ -21,6 +21,11 @@ function Dashboard() {
     return (
         <>
             <h3 style={{ color: 'black' }}>Dashboard Component</h3>
+            <div className="filter">
+                {/* <input type="checkbox">Shirts</input>
+                <input type="checkbox">Shirts</input>
+                <input type="checkbox">Shirts</input> */}
+            </div>
             <div className="card-container">
                 {
                     products.map((ele) => {
